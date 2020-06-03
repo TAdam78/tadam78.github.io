@@ -1,0 +1,111 @@
+pagecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+header {
+  width: 1100px;
+  height: 350px;
+  background: center/101% url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  border-top: 5px solid black;
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  }
+head1 {
+  display: block;
+  font-size:30px;
+}
+head2 {
+  display: block;
+  font-size:60px;
+}
+head1, head2 {
+  position:relative;
+  top:210px;
+  left:250px;
+}
+
+
+blockquote {
+  width: 700px;
+  background: #222;
+  color:white;
+  text-align: left;
+  padding: 40px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 46px;
+  margin:0;
+}
+blockquote::before {
+  position:relative;
+  top:-35px;
+  left:-15px;
+  content:'”';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+  
+echo {
+  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+  padding: 30px;
+}
+archievment {
+  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  padding: 30px;
+}
+experience {
+  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  padding: 30px;  
+}
+training {
+  width:700px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  padding: 30px;
+  border-bottom: 5px solid black;
+}
+labela {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 25px 0px;
+}
+labelb {
+  display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+labelc {
+  display: block;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+archievment labelb {
+  margin: 20px 0px;
+}
+experience labelb, training labelb {
+  margin-top: 20px;
+}
+experience labelc, training labelc {
+  margin-bottom: 20px;
+}
+
+
+footer {
+  width: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  padding: 30px;
+}
